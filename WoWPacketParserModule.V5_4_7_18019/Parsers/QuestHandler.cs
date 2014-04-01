@@ -41,7 +41,7 @@ namespace WoWPacketParserModule.V5_4_7_18019.Parsers
                 packet.ReadUInt32("Emote Id", i);
             }
 
-            ReadExtraQuestInfo(ref packet);
+            //ReadExtraQuestInfo(ref packet);
         }
     }
 }

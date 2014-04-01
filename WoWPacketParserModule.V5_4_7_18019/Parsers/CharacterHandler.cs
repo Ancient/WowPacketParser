@@ -113,7 +113,7 @@ namespace WoWPacketParserModule.V5_4_7_18019.Parsers
                     var race = packet.ReadEnum<Race>("Race", TypeCode.Byte, c);
                     packet.ReadByte("Face", c);
 
-                    var playerGuid = new Guid(BitConverter.ToUInt64(charGuids[c], 0));
+                    var playerGuid = new WowPacketParser.Misc.Guid(BitConverter.ToUInt64(charGuids[c], 0));
 
                     packet.WriteGuid("Character GUID", charGuids[c], c);
                     packet.WriteGuid("Guild GUID", guildGuids[c], c);
