@@ -69,7 +69,8 @@ namespace WowPacketParser.Enums.Version.V5_4_7_18019
             {Opcode.SMSG_AUTH_RESPONSE, 0x15A0},
             {Opcode.CMSG_REALM_SPLIT, 0x1282},
             {Opcode.SMSG_POWER_UPDATE, 0x1441},
-            //{Opcode.SMSG_QUEST_QUERY_RESPONSE, 0x0966}
+            {Opcode.CMSG_QUEST_QUERY, 0x1F52},
+            {Opcode.SMSG_QUEST_QUERY_RESPONSE, 0x0F13},
 
 
             {Opcode.SMSG_QUESTUPDATE_COMPLETE, 0x0F77},
